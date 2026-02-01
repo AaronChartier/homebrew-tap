@@ -10,6 +10,7 @@ class Inkjet < Formula
   depends_on "freetype"
   depends_on "jpeg"
   depends_on "libpng"
+  depends_on "pkg-config"
   depends_on "python@3.12"
 
   resource "bleak" do
