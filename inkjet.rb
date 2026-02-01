@@ -7,6 +7,9 @@ class Inkjet < Formula
   sha256 "8923c26ee5492ddcb13418b31ed10421ac377340fab21e61ab925d978d0a4e11"
   license "MIT"
 
+  depends_on "freetype"
+  depends_on "jpeg"
+  depends_on "libpng"
   depends_on "python@3.12"
 
   resource "bleak" do
