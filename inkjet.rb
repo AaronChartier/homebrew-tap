@@ -3,8 +3,8 @@ class Inkjet < Formula
 
   desc "CLI tool for Bluetooth thermal printer control and printing"
   homepage "https://github.com/AaronChartier/inkjet"
-  url "https://github.com/AaronChartier/inkjet/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "8923c26ee5492ddcb13418b31ed10421ac377340fab21e61ab925d978d0a4e11"
+  url "https://github.com/AaronChartier/inkjet/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "9e186185318a0dc31ca3046e499bc7a1aee110f2dbd8616cac44f23f3c787de2"
   license "MIT"
 
   depends_on "freetype"
@@ -99,6 +99,6 @@ class Inkjet < Formula
 
   test do
     # Simple test to verify the version command works
-    assert_match "0.1.0", shell_output("#{bin}/inkjet --version")
+    assert_match "0.1.1", shell_output("#{bin}/inkjet --version")
   end
 end
