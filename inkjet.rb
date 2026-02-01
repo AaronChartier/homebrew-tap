@@ -4,7 +4,7 @@ class Inkjet < Formula
   desc "CLI tool for Bluetooth thermal printer control and printing"
   homepage "https://github.com/AaronChartier/inkjet"
   url "https://github.com/AaronChartier/inkjet/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "80a393ec3228916a29dbbaaaa091d31acb6a7777affe21cb7211da3f67cd5476"
+  sha256 "4da5611dd417351b4f75278af08e2f74b36914c7d7e2fbb24e96edc406f8fe9d"
   license "MIT"
 
   depends_on "freetype"
